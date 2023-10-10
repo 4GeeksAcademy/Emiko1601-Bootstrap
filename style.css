@@ -1,0 +1,29 @@
+.col-6 img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    
+}
+
+.nav nav-tabs{
+    align-items: center;
+}
+
+.row {
+ 
+    margin-bottom: 120px;
+    margin-right: 20px;
+    
+}
+
+.nav-profile {
+    align-content: center;
+}
+
+.titulo{
+    align-content: center;
+}
+
+.boton-create{
+   float: right;
+}
