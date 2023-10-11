@@ -27,3 +27,14 @@
 .boton-create{
    float: right;
 }
+
+.modal-button {
+    margin-right: 10px;
+}
+
+.logo-instagram {
+    margin-right: 10px;
+}
+
+/* centrar cards */
+/* margin: 10px auto; */
