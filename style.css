@@ -13,6 +13,10 @@
 display: flex;
 }
 
+.fa-solid fa-camera{
+    margin: 10px auto;
+}
+
 .navbar-expand-lg .navbar-collapse {
     justify-content: space-between;
 }
