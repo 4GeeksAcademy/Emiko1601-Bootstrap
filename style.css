@@ -1,39 +1,24 @@
 .col-6 img {
     height: 300px;
     width: 300px;
-    object-fit: cover;
-    
-}
-
-.nav nav-tabs{
-    align-items: center;
+    object-fit: cover;  
 }
 
 .row {
- 
     margin-bottom: 120px;
-    margin-right: 20px;
-    
+    margin-right: 20px; 
 }
 
-.nav-profile {
-    align-content: center;
+.right {
+display: flex;
 }
 
-.titulo{
-    align-content: center;
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-between;
 }
 
-.boton-create{
-   float: right;
-}
-
-.modal-button {
-    margin-right: 10px;
-}
-
-.logo-instagram {
-    margin-right: 10px;
+.card {
+    margin: 10px auto; 
 }
 
 /* centrar cards */

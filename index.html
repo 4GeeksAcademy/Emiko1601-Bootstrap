@@ -17,73 +17,51 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <i class="fa-brands fa-instagram logo-instagram"></i><a class="navbar-brand">Instagram</a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                <div class="left">
+                    <i class="fa-brands fa-instagram logo-instagram"></i><a class="navbar-brand">Instagram</a>
+                </div>
+
+                <div class="right">
+                    <!-- modal button util -->
+                    <button type="button" class="btn btn-success d-flex modal-button" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Create New Post</button>
+
+                    <!--modal util-->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create New Post</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p style="font-weight:bold; padding:15px; border:1px solid black;">Add the
+                                        caption
+                                        of your post here</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <i class="fa-solid fa-camera"></i>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Herramienta útil -->
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <i class="fa-solid fa-gear"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Hola</a></li>
+                            <li><a class="dropdown-item" href="#">Como</a></li>
+                            <li><a class="dropdown-item" href="#">Estás</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-
-                <!-- modal button -->
-                <button type="button" class="btn btn-success d-flex modal-button" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Create New Post</button>
-
-                <!--modal-->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Create New Post</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <p style="font-weight:bold; padding:15px; border:1px solid black;">Add the
-                                    caption
-                                    of your post here</p>
-                            </div>
-                            <div class="modal-footer">
-                                <i class="fa-solid fa-camera"></i>
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                        </div>
                     </div>
-                </div>
-
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <i class="fa-solid fa-gear"></i>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -96,62 +74,7 @@
 
 
 
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-            <div class="icono-Instagram">
-                <i class="fa-brands fa-instagram"></i>
-            </div>
-            <div class="titulo">
-                <a class="navbar-brand">Instagram</a>
-            </div>
 
-            <div class="boton-create">
-
-                <!-- modal button -->
-                <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Create New Post</button>
-
-                <!--modal-->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Create New Post</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <p style="font-weight:bold; padding:15px; border:1px solid black;">Add the
-                                    caption
-                                    of your post here</p>
-                            </div>
-                            <div class="modal-footer">
-                                <i class="fa-solid fa-camera"></i>
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    <i class="fa-solid fa-gear"></i>
-                </button>
-                <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-            </div>
-
-
-        </div>
-    </nav>
 
     <!--tabs navbar-->
     <nav>
@@ -165,7 +88,9 @@
         </div>
     </nav>
 
+    <!--la parte de abajo de las fotos-->
     <div class="tab-content" id="nav-tabContent">
+        <!--Las grillas-->
         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
             tabindex="0">
             <div class="container-fluid">
@@ -216,6 +141,7 @@
             </div>
         </div>
 
+        <!--Una a una las fotos-->
         <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
             <div class="container-fluid">
                 <div class="card" style="width: 18rem;">
